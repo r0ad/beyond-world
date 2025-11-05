@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-novel": {
+      "command": "npx",
+      "args": [
+        "novel-mcp"
+      ]
+    }
+  }
+}
