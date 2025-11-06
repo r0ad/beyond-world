@@ -141,3 +141,24 @@ beyond-world/
 
 - **MCP客户端**：Cursor 使用 MCP 工具 novel-mcp 进行创作
 - **AI模型**：使用 Cursor Auto模型
+
+## 仓库地址
+
+- [github](https://github.com/r0ad/beyond-world)
+- [gitee](https://gitee.com/r0ad/beyond-world)
+- [gitcode](https://gitcode.com/sunzroad/beyond-world)
+
+```shell
+# gitee
+git remote add gitee git@gitee.com:r0ad/beyond-world.git
+git push gitee master
+# gitcode
+git remote add gitcode git@gitcode.com:sunzroad/beyond-world.git
+git push gitcode master
+# github
+git remote add github git@github.com:r0ad/beyond-world.git
+git push github master
+
+## 批量更新仓库
+git push --all
+```
