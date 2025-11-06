@@ -160,5 +160,6 @@ git remote add github git@github.com:r0ad/beyond-world.git
 git push github master
 
 ## 批量更新仓库
-git push --all
+# 遍历所有远程仓库并推送所有分支
+for remote in $(git remote); do git push $remote --all; done
 ```
